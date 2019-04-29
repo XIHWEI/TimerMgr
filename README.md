@@ -29,7 +29,7 @@ int main()
 		return 0;
 	}	
 	
-	// 定义 定时发送数据的类 间隔1秒
+	// 间隔1秒
 	SendDataSession sendSession(&tcpClient);
 	sendSession.StartTimer(1);
 	getchar();
